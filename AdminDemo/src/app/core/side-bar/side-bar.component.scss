@@ -1,0 +1,12 @@
+.main-sidebar
+{
+    background-color: white;
+}
+li.active > a,  li > a {
+    color: grey;
+    background-color: white;
+}
+li:hover > a{
+    color: white;
+    background-color: grey;
+}
