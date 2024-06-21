@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+.bg-info{
+    background-color: #2255a4 !important
+}
+
+.bg-danger {
+    background-color: #da542e !important;
+}
+
+.bg-inverse {
+    background-color: #212529!important;
+}
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #343a40 !important;
+}
+.bg-success {
+    background-color: #28b779 !important;
+}
+
+.bg-warning {
+    background-color: #ffb848 !important;
+}
+
+.bg-cyan {
+    background-color: #27a9e3 !important;
+}
+
+.display-7 {
+    font-size: 3rem;
+}
