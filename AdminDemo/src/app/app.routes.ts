@@ -5,5 +5,5 @@ import { ChapterComponent } from './areas/StrumMain/chapter/chapter.component';
 export const routes: Routes = [
     { path: '', redirectTo: 'Home', pathMatch: 'full' },
     { path: 'Home', component:HomeComponent },
-    { path: 'Chapter', component:ChapterComponent },
+    { path: 'Chapter/:id', component:ChapterComponent },
 ];
