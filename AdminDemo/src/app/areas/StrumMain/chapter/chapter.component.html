@@ -1,7 +1,43 @@
 
 
 <app-activity-center></app-activity-center>
-<p style="margin-left: 200px;">{{page}} Loaded</p>
-<p style="margin-left: 200px;">{{Period}} Loaded</p>
+<div >
+    <div class="row" style="margin-top: 10px;
+    padding-left: 0;
+    margin-left: 25px;">
+        <div class="col-md-4" style="border: solid red;"> 
+            Map
+            <google-map></google-map>
+        </div>
+        <div class="col-md-8" style="border: solid red;">
+            
+            <div class="row"> 
+                <div class="col-md-2"></div>
+                <div class="col-custom">
+                    <app-bar-chart-horizontal></app-bar-chart-horizontal>
+                </div>
+            <div class="col-custom">
+                <app-bar-chart-horizontal></app-bar-chart-horizontal>
+            </div>
+            <div class="col-custom">
+                <app-bar-chart-horizontal></app-bar-chart-horizontal>
+            </div>
+            <div class="col-custom">
+                <app-bar-chart-horizontal></app-bar-chart-horizontal>
+            </div>
+            
+                
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <app-bar-chart-horizontal></app-bar-chart-horizontal>
+                </div>
+                <div class="col-md-6"> 
+                    <app-bar-chart-horizontal></app-bar-chart-horizontal>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
