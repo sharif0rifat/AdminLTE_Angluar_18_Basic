@@ -4,6 +4,7 @@ import { ActivityCenterComponent } from '../Utilities/activity-center/activity-c
 import { Chart, ChartModule } from 'angular-highcharts';
 import { GoogleMapsModule } from '@angular/google-maps'
 import { BarChartHorizontalComponent } from '../../../utilities/charts/bar-chart-horizontal/bar-chart-horizontal.component';
+import { ChartOption } from '../../../utilities/Models/Option';
 
 @Component({
   selector: 'app-chapter',
@@ -16,7 +17,7 @@ export class ChapterComponent {
   private route=inject(ActivatedRoute);
   page='';
   Period='';
-
+    option1: ChartOption = new ChartOption(true);
     /**
    * Initializes the component and retrieves the 'index' parameter from the route's snapshot.
    * Logs the value of the 'index' parameter to the console.
